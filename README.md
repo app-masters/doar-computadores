@@ -19,7 +19,7 @@ incluir sua doação, sabendo que se fará bom uso aquele equipamento.
 
 O processo acontecerá em 3 ou 4 etapas, com dificuldade crescente, para encontrarmos aqueles estudantes mais animados, interessados e corajosos.
 
-Ao final de cada etapa atualizaremos aqui o repositório com os nicknames dos candidatos que avançaram.
+Ao final de cada etapa atualizaremos aqui o repositório com os nicknames dos candidatos que avançaram. A previsão é que o processo todo aconteça em cerca de 12 dias.
 
 Os participantes deverão optar pelo projeto frontend ou backend nas primeiras etapas. Se você se sente fullstack, por agora, terá que optar por um dos lados.
 
@@ -37,25 +37,27 @@ Tarefas da etapa:
 - Deixar no readme apenas a informação que se trata de um projeto de seleção nosso, com link para nosso site
 - Nos enviar a url do seu repositório por [este link](https://programador.emjuizdefora.com/responder/256/) para que possamos avaliar o que foi feito
 
-O backend será uma API do projeto de doação, que receberá os dados enviados pelos usuários no frontend, e também retornará informações (nas próximas etapas).
 
 ### Frontend
 
 - Criar projeto usando Next.js
-- Na rota inicial, exibir com H1 com "Doação de computadores usados"
+- Na rota inicial, exibir com `<H1>` com "Doação de computadores usados"
 - Instalar pacote AXIOS no projeto
 - Ao renderizar a interface (apenas uma vez) fazer uma chamada get para [doar-computador-api.herokuapp.com](https://doar-computador-api.herokuapp.com/) e obter a resposta, que será algo como `{alive:true}`
-- Se `alive` for `true`, exibir na view "API online", se `false` exibir "API offline"
+- Se `alive` for `true`, exibir em um `<P>` "API online", se `false` exibir "API offline"
 
 ### Backend
+
+O backend será uma API do projeto de doação, que receberá os dados enviados pelos usuários no frontend, e também retornará informações (nas próximas etapas).
 
 - Criar projeto usando Node puro (sem framework) e express
 - Ter apenas uma rota GET, a raiz (`/`)
 - Na raiz retornar status 200, um objeto json `{alive: true}` (sempre `true`)
-- Criar um teste (com jest ou [node:test](https://nodejs.org/docs/latest-v18.x/api/test.html)), que faça uma chamada em `/` e dê sucesso caso o resultado seja `{alive: true}`
+- Criar um teste (com jest, superTest, ou [node:test](https://nodejs.org/docs/latest-v18.x/api/test.html)), que faça uma chamada em `/` e dê sucesso caso o resultado seja `{alive: true}`
 
 # Dicas de ouro
 
 - Fique atento a toda informação passada e siga o que foi pedido
 - Fazer a menos não é bom, fazer a mais não é necessário nesta primeira etapa
 - Estaremos atentos a sua facilidade em seguir as instruções dadas e sua comunicação
+- O TypeScript pode ser usado no projeto, mas pode ser o JavaScript sem problema
