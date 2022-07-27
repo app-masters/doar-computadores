@@ -174,6 +174,14 @@ Tarefas da etapa:
 - A segunda parte recebe dados dos equipamentos a serem doados
 - Campos dos equipamento para doação: Tipo de equipamento, Estado
 - Tipos de equipamento: Notebook, Desktop, Netbook, Monitor, Impressora, Scanner
+```
+- Notebook - value: notebook
+- Desktop - value: desktop
+- Netbook - value: netbook
+- Monitor - value: screen
+- Impressora - value: printer
+- Scanner - value: scanner
+```
 - Estado de conservação (o usuário deverá escolher um deles): 
 ```
 - Tem todas as partes, liga e funciona normalmente - value: working
