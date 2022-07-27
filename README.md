@@ -66,6 +66,7 @@ Segue a lista dos 51 candidatos aprovados 🎉 para continuar no processo de sel
 - Bruno Jacomini
 - Bruno Theodoro
 - CaioDamasceno
+- CrohnnaroDev
 - Daniel Borges
 - Daniel Nogueira
 - Dienerld
@@ -109,6 +110,7 @@ Segue a lista dos 51 candidatos aprovados 🎉 para continuar no processo de sel
 - victor-barros
 - Wheeler
 - YaghoMattos
+- Yan - Refszin
 
 Aos demais agradecemos 🙏 de verdade a participação e esperamos que tenha sido proveitosso de alguma forma este processo.
 
