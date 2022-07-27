@@ -57,7 +57,7 @@ O backend será uma API do projeto de doação, que receberá os dados enviados 
 
 # 1ª Etapa - Aprovados para 2ª etapa
 
-Segue a lista dos 50 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
+Segue a lista dos 51 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
 
 - 1uri-silva
 - abreuthrj
@@ -79,6 +79,7 @@ Segue a lista dos 50 candidatos aprovados 🎉 para continuar no processo de sel
 - Gabriel Gomes Pena
 - gabs_padawan
 - gcboaventura
+- Gonzaga
 - Gustavo C.
 - gustavoDekel
 - Igor Westermann
@@ -130,6 +131,13 @@ Estrutura dos dados a serem enviados/recebidos.
     name,
     email,
     phone,
+    zip,
+    city,
+    state,
+    streetAdrress,
+    number,
+    complement,
+    neighborhood,
     deviceCount,
     devices: [
         {type, condition},
@@ -139,7 +147,7 @@ Estrutura dos dados a serem enviados/recebidos.
 }
 ```
 
-Todos campos são obrigatórios (inclusive em `devices`), exceto o endereço de email.
+Todos campos são obrigatórios (inclusive em `devices`), exceto o endereço de email e complement.
 
 Tarefas da etapa:   
 - Implementar sua parte do projeto de seleção
@@ -149,10 +157,14 @@ Tarefas da etapa:
 
 - Criar formulário com duas sessões
 - O formulário deve ficar na primeira página, para facilitar a doação
+- Manter o projeto usando o Next, ou seja, não implementar o react-router
 
 ### Primeira parte, dados pessoais
 - A primeira parte recebe os dados pessoais do doador
 - Campos de dados pessoais: Nome, e-mail, telefone
+- Do endereço, o primeiro campo deverá ser o CEP
+- Ao digitar o CEP, exibir um loading enquanto se obtem o endereço
+- Caso consiga obter o endereço, preencher os campos e levar o foco para o campo number
 - Após estes campos a pessoa irá informar "Quantos equipamentos serão doados"
 - Ao informar "1", será exibido abaixo um formulário único formulário de detalhes do equipamento, se "2" então dois formulários, e assim por diante
 
@@ -188,11 +200,15 @@ Não é preciso conectar ao banco de dados ainda, apenas lidar com o recebimento
 
 ### Testes
 - Criar teste para enviar campos faltando, e deverá ter sucesso ao confirmar que a API irá recusar com status `400` e `errorMessage`
-- Enviar um email inválido, e confirmar que a API recusa com mensagem específica pra isso
+- Informar um email inválido, e confirmar que a API recusa com mensagem específica pra isso
 - Criar teste para enviar dados pessoais completos, mas não enviar `devices`
 - Criar teste que envie dados completos, e `deviceCount` for diferente da quantidade de itens enviados em `devices`, deverá retornar uma falha
 - Criar teste que envie um type inválido
 - Criar teste que envie dados e devices corretamente, que enfim retornará `200` e `sucess`
+
+Se houver alguma regra que depende de outro teste, ou algum teste que depende de uma regra inexistente, sinta-se a vontade para implementar.
+
+Use o Postman, Insomnia ou outro software parecido para poder ir chamando sua API enquanto desenvolve, para te facilitar validar os retornos.
 
 ## Dicas de ouro para a segunda etapa
 
