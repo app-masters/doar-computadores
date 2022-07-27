@@ -136,7 +136,7 @@ Estrutura dos dados a serem enviados/recebidos.
     zip,
     city,
     state,
-    streetAdrress,
+    streetAddress,
     number,
     complement,
     neighborhood,
