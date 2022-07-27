@@ -55,16 +55,9 @@ O backend será uma API do projeto de doação, que receberá os dados enviados 
 - Na raiz retornar status 200, um objeto json `{alive: true}` (sempre `true`)
 - Criar um teste (com jest, superTest, ou [node:test](https://nodejs.org/docs/latest-v18.x/api/test.html)), que faça uma chamada em `/` e dê sucesso caso o resultado seja `{alive: true}`
 
-## Dicas de ouro
-
-- Fique atento a toda informação passada e siga o que foi pedido
-- Fazer a menos não é bom, fazer a mais não é necessário nesta primeira etapa
-- Estaremos atentos a sua facilidade em seguir as instruções dadas e sua comunicação
-- O TypeScript pode ser usado no projeto, mas pode ser o JavaScript sem problema
-
 # 1ª Etapa - Aprovados para 2ª etapa
 
-Segue a lista dos 50 candidatos aprovados para continuar no processo de seleção conosco:
+Segue a lista dos 50 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
 
 - 1uri-silva
 - abreuthrj
@@ -116,7 +109,9 @@ Segue a lista dos 50 candidatos aprovados para continuar no processo de seleçã
 - Wheeler
 - YaghoMattos
 
-Aos demais agradecemos a participação e esperamos que tenha sido proveitosso de alguma forma este processo. Caso acredite que seu projeto estava dentro do pedido, entre em contato conosco para conversarmos melhor.
+Aos demais agradecemos 🙏 de verdade a participação e esperamos que tenha sido proveitosso de alguma forma este processo.
+
+Caso acredite que seu projeto estava dentro do pedido e deveria ter seguido no processo, entre em contato conosco para conversarmos melhor.
 
 # 2ª Etapa - Formulário e envio dos dados
 
@@ -198,3 +193,13 @@ Não é preciso conectar ao banco de dados ainda, apenas lidar com o recebimento
 - Criar teste que envie dados completos, e `deviceCount` for diferente da quantidade de itens enviados em `devices`, deverá retornar uma falha
 - Criar teste que envie um type inválido
 - Criar teste que envie dados e devices corretamente, que enfim retornará `200` e `sucess`
+
+## Dicas de ouro para a segunda etapa
+
+- Fique atento a toda informação passada e siga o que foi pedido, nomes dos atributos, validações, status, etc
+- Fazer a menos será desclassificação, fazer a mais só se for pouco a mais, senão ficará difícil pra gente verificar o que foi realmente feito ou não
+- Estaremos atentos a sua facilidade em seguir as instruções dadas e sua comunicação
+
+. . .
+
+🍀 Boa sorte e bons códigos! 🍀
