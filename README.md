@@ -226,6 +226,107 @@ Use o Postman, Insomnia ou outro software parecido para poder ir chamando sua AP
 - Fazer a menos será desclassificação, fazer a mais só se for pouco a mais, senão ficará difícil pra gente verificar o que foi realmente feito ou não
 - Estaremos atentos a sua facilidade em seguir as instruções dadas e sua comunicação
 
-. . .
+# 2ª Etapa - Aprovados para 3ª etapa
+
+Todos foram incríveis em seus projetos e foi realmente difícil afunilar o processo, mas foi preciso. Esta é a lista dos 18 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
+
+- abreuthrj
+- alex-oliveira
+- bruno-theodoro
+- diener-lourenco-dornelas
+- Douglas_Tott
+- Dubon
+- falci
+- gabs_padawan
+- João Silva
+- leonardo-frederico-da-silva
+- lucio-do-nascimento
+- lyon-heitor-escalli
+- maria-fernanda-moreira-tavares
+- mattheus-mazzillio-santos-silva
+- Patrick
+- rafael-antunes
+- saviorbp
+- YaghoMattos
+
+Os candidatos que não avançaram, receberão um email com as anotações das observações que fizemos em seus projetos, para fins de feedback, e poder melhorar (se quiser) nestes aspectos.
+
+Faremos um [encontro com todos](#encontro-com-todos); candidatos atuais e os que não estão mais no processo, para conversarmos sobre os erros mais comuns, respondermos perguntas, e darmos algumas dicas para terem mais sucesso nos próximos processos que participarem.
+
+
+# 3ª Etapa - Back e front juntos
+
+Chegou a hora de trabalhar em equipe, e de ficar mais imerso no ambiente real de desenvolvimento de um projeto.
+
+Nesta etapa back e front terão que conversar, ou seja, um projeto de front irá consumir um projeto de back, de candidatos do próprio processo. Com isso nosso back será desativado.
+
+**Início: 02/08/2022 - envio dos projetos: até 31/07/2022 - resultado: 02/08/2022**   
+
+O objetivo é validar se você consegue se comunicar bem com outro candidato para tentarem fazer o projeto dar certo, além de evoluir suas atividades individuais.
+
+Quem for do front deverá melhorar seu projeto da forma que achar necessário, além de algumas tarefas extras.
+
+Quem for do back precisará realizar o deploy do seu projeto (para que o front possa ir usando), mas também conectar a um banco de dados para persistir os dados.
+
+Tarefas da etapa:   
+- Nos informar quais dias e irá focar mais no projeto [neste link](https://programador.emjuizdefora.com/responder/256/), para encontrarmos um parceiro pra você ainda na terça-feira
+- Implementar sua parte do projeto de seleção
+- Ao final das atividades, seguir pelo formulário [neste link](https://programador.emjuizdefora.com/responder/256/) (que apresentará outra perguntas) para confirmar suas atividades.
+
+Iremos avaliar as entregas de cada candidato de forma independente, não como um grupo. Mas a integração com a parte de seu parceiro será observada.
+
+## Comunicação
+
+Teremos nove duplas (back/front), onde cada dupla terá um canal exclusivo no nosso slack, com o Tiago Gouvêa, João Baraky, e também o João Bast (frontend) e Bruno Pinheiro (backend) pra te ajudarem e darem suporte.
+
+Conforme formos recebendo as respostas dos dias e horários iremos criando as equipes, e então enviaremos o convite para o slack já para o canal certo. A meta é até o final da terça-feira já termos todos no slack.
+
+Com isso o grupo do whatsapp não será mais necessário pra se comunicar conosco, apenas o slack.
+
+A maioria das empresas de tecnologia utiliza o [Slack](https://slack.com/) para se comunicar internamente, então é bom você já ir se acostumando com ele.
+
+## Daily
+
+Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua equipe também) você poderá enviar sua daily no canal do slack assim que começar todos os dias (sem hora marcada), respondendo as perguntas:
+- O que implementou ontem?
+- O que não conseguiu implementar (agarrou) ontem?
+- O que irá implementar hoje?
+- O que será mais difícil fazer hoje?
+- Tem algo te bloqueando de avançar? O que é?
+
+## Frontend
+
+- Ajustar a interface para ficar responsiva, testando como se fosse vista no computador, tablet e celular, em três dimensões no mínimo
+- Criar uma lista de instituições que podem receber doações, mostrando o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo.
+- Enviar dados pro backend do seu parceiro
+- Fazer deploy do projeto para o vercel/heroku (ou outro que você prefira)
+
+Não queremos que o candidato de back da sua equipe te prejudique, de forma alguma, então observe que nesta etapa você deverá apontar para a API do candidato, porém é uma parte pequena da sua atividade, uma vez que a API dele já deve estar bem parecida com a que você usou na segunda etapa.
+
+Vá avançando nas outras tarefas, inclusive a de deploy, enquanto ele movimenta a parte dele. Se você estiver só dependendo dele, diga na sua daily.
+
+Caso sinta que seu parceiro não está te respondendo a tempo, ou que não dará certo com ele, nos avise (pelo slack mesmo) para te direcionarmos para outro backend (de outro candidato).
+
+# Backend
+
+- Adequar sua API para se comunicar adequadamente com o frontend do seu parceiro
+- Adicionar banco de dados
+- Fazer deploy do projeto heroku (ou outro que você prefira)
+- Só retornar sucesso se salvar no banco
+- Usar dotenv, para carregar as informações de conexão com o banco de dados, obtendo do seu .env local, e das configurações de ambiente do heroku (ou outro que você preferir).
+
+A pessoa do front dependerá de você, é sempre assim, a galera do front depende do backend pronto. Portanto se você não fez o deploy na segunda etapa, por favor, faça isso antes de mais nada, para que o front já possa consumir sua API e enviar uns posts pra ela e testar a validação.
+
+Se você e seu parceiro de front não derem certo, iremos direcionar vocês pra outros parceiros, ou seja, mudar a dupla. Mas o ideal é que tente dar certo.
+
+# Encontro com todos
+
+Realizaremos na quarta-feira, dia 3 de agosto, as 15h um encontro online via Google Meet e todos estão os que se inscrevera no processo (desde o início) estão convidados.
+
+Conversaremos sobre os erros mais comuns que percebemos, responderemos perguntas, e daremos algumas dicas para terem mais sucesso nos próximos processos que participarem, seja aonde for.
+
+Este é o [link para acesso](https://meet.google.com/eaw-usxg-mzr) ao encontro.
+
+. . . 
 
 🍀 Boa sorte e bons códigos! 🍀
