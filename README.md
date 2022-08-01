@@ -260,7 +260,9 @@ Chegou a hora de trabalhar em equipe, e de ficar mais imerso no ambiente real de
 
 Nesta etapa back e front terão que conversar, ou seja, um projeto de front irá consumir um projeto de back, de candidatos do próprio processo. Com isso nosso back será desativado.
 
-**Início: 02/08/2022 - envio dos projetos: até 31/07/2022 - resultado: 02/08/2022**   
+Entre os que estão nesta etapa, sortearemos 🎲 dois fones de ouvido 🎧 bluetooth. Os vencedores poderão escolher 🤩 entre três modelos diferentes. Mandaremos mais detalhes no grupo do whatsapp nesta semana.
+
+**Início: 02/08/2022 - envio dos projetos: até meia noite de 07/08/2022 - resultado: 10/08/2022**   
 
 O objetivo é validar se você consegue se comunicar bem com outro candidato para tentarem fazer o projeto dar certo, além de evoluir suas atividades individuais.
 
@@ -287,7 +289,7 @@ A maioria das empresas de tecnologia utiliza o [Slack](https://slack.com/) para 
 
 ## Daily
 
-Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua equipe também) você poderá enviar sua daily no canal do slack assim que começar todos os dias (sem hora marcada), respondendo as perguntas:
+Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua equipe também) você deverá enviar sua daily no canal do slack assim que começar todos os dias (sem hora marcada), respondendo as perguntas:
 - O que implementou ontem?
 - O que não conseguiu implementar (agarrou) ontem?
 - O que irá implementar hoje?
@@ -298,8 +300,12 @@ Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua
 
 - Ajustar a interface para ficar responsiva, testando como se fosse vista no computador, tablet e celular, em três dimensões no mínimo
 - Criar uma lista de instituições que podem receber doações, mostrando o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo.
-- Enviar dados pro backend do seu parceiro
+- Enviar os dados do formulário para o backend do seu parceiro
 - Fazer deploy do projeto para o vercel/heroku (ou outro que você prefira)
+
+Ao consumir o backend de seu parceiro, eventualmente será necessário fazer alguns ajustes nos retornos e confirmar que tudo continua funcionando. 
+
+Não existirá mais os erros aleatórios forçados na API do seu parceiro, mas, quando der um erro será um problema de verdade, e precisará falar com ele para acharem o problema.
 
 Não queremos que o candidato de back da sua equipe te prejudique, de forma alguma, então observe que nesta etapa você deverá apontar para a API do candidato, porém é uma parte pequena da sua atividade, uma vez que a API dele já deve estar bem parecida com a que você usou na segunda etapa.
 
