@@ -302,9 +302,11 @@ Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua
 ## Frontend
 
 - Ajustar a interface para ficar responsiva, testando como se fosse vista no computador, tablet e celular, em três dimensões no mínimo
-- Criar uma lista de instituições que podem receber doações, mostrando o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo.
+- Criar uma lista de instituições que podem receber doações
 - Enviar os dados do formulário para o backend do seu parceiro
 - Fazer deploy do projeto para o vercel/heroku (ou outro que você prefira)
+
+Quanto a lsita de instituições, crie um menu para ir para esta listagem ou outra forma de acesso para a lista, visto que a pagina inicial ainda é o formulário. Mostre o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo, sem nenhuma integração com API nenhuma.
 
 Ao consumir o backend de seu parceiro, eventualmente será necessário fazer alguns ajustes nos retornos e confirmar que tudo continua funcionando. 
 
@@ -319,10 +321,12 @@ Caso sinta que seu parceiro não está te respondendo a tempo, ou que não dará
 # Backend
 
 - Adequar sua API para se comunicar adequadamente com o frontend do seu parceiro
-- Adicionar banco de dados
+- Adicionar banco de dados no projeto
 - Fazer deploy do projeto heroku (ou outro que você prefira)
-- Só retornar sucesso se salvar no banco
+- Só retornar sucesso se salvar no banco, e objetos que foram salvos (com seus respectivos `id`)
 - Usar dotenv, para carregar as informações de conexão com o banco de dados, obtendo do seu .env local, e das configurações de ambiente do heroku (ou outro que você preferir).
+
+Quanto ao banco de dados deverá ser usado mysql ou postgres. Você poderá optar por salvar os dados em duas tabelas (uma para doações e outra pros devices), ou três (incluindo uma pro doador). Caso salve o doador separamente, se o telefone ou email já existir, assumir que o doador é o mesmo.
 
 A pessoa do front dependerá de você, é sempre assim, a galera do front depende do backend pronto. Portanto se você não fez o deploy na segunda etapa, por favor, faça isso antes de mais nada, para que o front já possa consumir sua API e enviar uns posts pra ela e testar a validação.
 
