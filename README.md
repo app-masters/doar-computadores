@@ -228,25 +228,27 @@ Use o Postman, Insomnia ou outro software parecido para poder ir chamando sua AP
 
 # 2ª Etapa - Aprovados para 3ª etapa
 
-Todos foram incríveis em seus projetos e foi realmente difícil afunilar o processo, mas foi preciso. Esta é a lista dos 18 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
+Todos foram incríveis em seus projetos e foi realmente difícil afunilar o processo, mas foi preciso. Esta é a lista dos 20 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
 
 - abreuthrj
-- alex-oliveira
-- bruno-theodoro
-- diener-lourenco-dornelas
+- Bruno Theodoro
+- Dienerld
 - Douglas_Tott
 - Dubon
 - falci
 - gabs_padawan
 - João Silva
-- leonardo-frederico-da-silva
-- lucio-do-nascimento
-- lyon-heitor-escalli
-- maria-fernanda-moreira-tavares
-- mattheus-mazzillio-santos-silva
+- Leonardo Freedy
+- lucio-iot-dev
+- LyonEscalli
+- Maria Fernanda Tavares
+- Matheus ou Magno
+- Mazzillio
+- McLovin
 - Patrick
-- rafael-antunes
+- raphajf
 - saviorbp
+- Wheeler
 - YaghoMattos
 
 Os candidatos que não avançaram, receberão um email com as anotações das observações que fizemos em seus projetos, para fins de feedback, e poder melhorar (se quiser) nestes aspectos.
