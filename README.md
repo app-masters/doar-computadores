@@ -306,7 +306,7 @@ Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua
 - Enviar os dados do formulário para o backend do seu parceiro
 - Fazer deploy do projeto para o vercel/heroku (ou outro que você prefira)
 
-Quanto a lsita de instituições, crie um menu para ir para esta listagem ou outra forma de acesso para a lista, visto que a pagina inicial ainda é o formulário. Mostre o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo, sem nenhuma integração com API nenhuma.
+Quanto a lsita de instituições, crie um menu para ir para esta listagem ou outra forma de acesso para a lista, que deverá estar na rota `/instituicoes`, visto que a pagina inicial ainda é o formulário. Mostre o nome da instituição, cidade, bairro, apresentação breve da instituição, e links para site, instagram, facebook e whatsapp. Crie (no código mesmo) pelo ao menos cinco instituições fictícias (mock) só pra gente ver mesmo, sem nenhuma integração com API nenhuma.
 
 Ao consumir o backend de seu parceiro, eventualmente será necessário fazer alguns ajustes nos retornos e confirmar que tudo continua funcionando. 
 
