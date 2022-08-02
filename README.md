@@ -228,9 +228,10 @@ Use o Postman, Insomnia ou outro software parecido para poder ir chamando sua AP
 
 # 2ª Etapa - Aprovados para 3ª etapa
 
-Todos foram incríveis em seus projetos e foi realmente difícil afunilar o processo, mas foi preciso. Esta é a lista dos 20 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
+Todos foram incríveis em seus projetos e foi realmente difícil afunilar o processo, mas foi preciso. Esta é a lista dos 21 candidatos aprovados 🎉 para continuar no processo de seleção 💪 conosco:
 
 - abreuthrj
+- Breno Morais
 - Bruno Theodoro
 - Dienerld
 - Douglas_Tott
