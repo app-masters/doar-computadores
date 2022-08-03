@@ -320,13 +320,17 @@ Caso sinta que seu parceiro não está te respondendo a tempo, ou que não dará
 
 # Backend
 
-- Adequar sua API para se comunicar adequadamente com o frontend do seu parceiro
+- Adequar sua API para se comunicar adequadamente com o frontend do seu parceiro - será necessário adicionar CORS para aceitar chamadas de outro domínio
 - Adicionar banco de dados no projeto
 - Fazer deploy do projeto heroku (ou outro que você prefira)
 - Só retornar sucesso se salvar no banco, e objetos que foram salvos (com seus respectivos `id`)
 - Usar dotenv, para carregar as informações de conexão com o banco de dados, obtendo do seu .env local, e das configurações de ambiente do heroku (ou outro que você preferir).
 
 Quanto ao banco de dados deverá ser usado mysql ou postgres. Você poderá optar por salvar os dados em duas tabelas (uma para doações e outra pros devices), ou três (incluindo uma pro doador). Caso salve o doador separamente, se o telefone ou email já existir, assumir que o doador é o mesmo.
+
+Algumas regras também foram ajustadas:
+- Não é permitido enviar campos com `""` ou `" "`, ou seja, ou vem um valor qualquer, ou vem null. Espaço vazio, string vazia, deve ser recusado.
+- Validar email de forma completa (não só verificar sem tem `@`) usando um [pacote ou validação detalhada](https://stackoverflow.com/a/57741813/448292)
 
 A pessoa do front dependerá de você, é sempre assim, a galera do front depende do backend pronto. Portanto se você não fez o deploy na segunda etapa, por favor, faça isso antes de mais nada, para que o front já possa consumir sua API e enviar uns posts pra ela e testar a validação.
 
