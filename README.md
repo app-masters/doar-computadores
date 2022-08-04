@@ -25,6 +25,12 @@ Os participantes deverão optar pelo projeto frontend ou backend nas primeiras e
 
 Aqueles que passarem da segunda etapa (para a terceira), estarão concorrendo 🤩 a prêmios como fone de ouvido e um cafeteira Nespresso.
 
+# Encontro com apresentação
+
+Fizemos um encontro com os candidatos para apresentar o processo de seleção.
+
+Assista [no youtube](https://youtu.be/PyHzILPyFyc).
+
 # 1ª Etapa - Bootstraping
 
 Nesta etapa queremos criar o projeto básico, o mínimo necessário para sairmos do zero.
@@ -201,7 +207,7 @@ Observação: nossa API só terá esse endpoint no final do dia 27
 Não é preciso conectar ao banco de dados ainda, apenas lidar com o recebimento dos dados e retorno para o frontend, além de testes bem completos.
 
 ### Recebimento dos dados
-- Criar rota POST /donation que receberá os dados em um único post
+- Criar rota POST `/donation` que receberá os dados em um único post
 - Se algum campo faltar retornar status `400` com `{error: true, requiredFields: [$field1, $field2, ...], errorMessage: "Todos os campos obrigatórios devem ser informados"}`
 - [ ] Validar se o endereço de email é válido
 - [ ] Se  a quantidade de itens no array `devices` for diferente de `deviceCount` retornar status `400` com `{error:true, errorMessage: "A quantidade de equipamentos ({$deviceCount}) não está de acordo com as informações de equipamentos enviados ({$sentDevices})"}`
@@ -292,7 +298,7 @@ A maioria das empresas de tecnologia utiliza o [Slack](https://slack.com/) para 
 
 ## Daily
 
-Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua equipe também) você deverá enviar sua daily no canal do slack assim que começar todos os dias (sem hora marcada), respondendo as perguntas:
+Pra gente acompanhar o andamento da sua parte do projeto (e pro outro dev da sua equipe também) você deverá enviar sua daily escrita no canal do slack assim que começar todos os dias (sem hora marcada), respondendo as perguntas:
 - O que implementou ontem?
 - O que não conseguiu implementar (agarrou) ontem?
 - O que irá implementar hoje?
@@ -324,6 +330,7 @@ Caso sinta que seu parceiro não está te respondendo a tempo, ou que não dará
 - Adicionar banco de dados no projeto
 - Fazer deploy do projeto heroku (ou outro que você prefira)
 - Só retornar sucesso se salvar no banco, e objetos que foram salvos (com seus respectivos `id`)
+- Criar rota de GET em `/donation` que retorna a lista de doações do banco de dados, por order de id desc (mais recente primeiro)
 - Usar dotenv, para carregar as informações de conexão com o banco de dados, obtendo do seu .env local, e das configurações de ambiente do heroku (ou outro que você preferir).
 
 Quanto ao banco de dados deverá ser usado mysql ou postgres. Você poderá optar por salvar os dados em duas tabelas (uma para doações e outra pros devices), ou três (incluindo uma pro doador). Caso salve o doador separamente, se o telefone ou email já existir, assumir que o doador é o mesmo.
@@ -338,11 +345,9 @@ Se você e seu parceiro de front não derem certo, iremos direcionar vocês pra 
 
 # Encontro com todos
 
-Realizaremos na quarta-feira, dia 3 de agosto, as 15h um encontro online via Google Meet e todos estão os que se inscrevera no processo (desde o início) estão convidados.
+Realizamos um encontro online via Google Meet com todos os inscritos (que avançaram no processo ou não). Conversamos sobre os erros mais comuns que percebemos, respondemos perguntas, e demos algumas dicas para terem mais sucesso nos próximos processos que participarem, seja aonde for.
 
-Conversaremos sobre os erros mais comuns que percebemos, responderemos perguntas, e daremos algumas dicas para terem mais sucesso nos próximos processos que participarem, seja aonde for.
-
-Este é o [link para acesso](https://meet.google.com/eaw-usxg-mzr) ao encontro.
+Assista [no youtube](https://youtu.be/NP8ey43ArYY).
 
 . . . 
 
