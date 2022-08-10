@@ -324,7 +324,7 @@ Vá avançando nas outras tarefas, inclusive a de deploy, enquanto ele movimenta
 
 Caso sinta que seu parceiro não está te respondendo a tempo, ou que não dará certo com ele, nos avise (pelo slack mesmo) para te direcionarmos para outro backend (de outro candidato).
 
-# Backend
+## Backend
 
 - Adequar sua API para se comunicar adequadamente com o frontend do seu parceiro - será necessário adicionar CORS para aceitar chamadas de outro domínio
 - Adicionar banco de dados no projeto
@@ -349,6 +349,55 @@ Realizamos um encontro online via Google Meet com todos os inscritos (que avanç
 
 Assista [no youtube](https://youtu.be/NP8ey43ArYY).
 
-. . . 
+# 3ª Etapa - Aprovados para 4ª (e última) etapa
 
-🍀 Boa sorte e bons códigos! 🍀
+Não foi fácil mesmo desta vez! Os projetos estavam todos com alta qualidade, com bem menos falhas e desvios. Tivemos que escolher os melhores com base em tudo que vimos desde o começo do processo, levando em consideração diversos fatores.
+
+👏👏👏 Mas todos estão de parabéns pelo que construiram! 👏👏👏
+
+Recomendamos até que melhorem o Readme de seus projetos, incluindo alguns prints, para deixar em exposição no seu github.
+
+### Para a última etapa
+
+Quem iremos avançar para esta última etapa será:
+
+- abreuthrj
+- Bruno Theodoro
+- Douglas_Tott
+- João Silva
+- Leonardo Freedy
+- Maria Fernanda Tavares
+- Mazzillio
+- Patrick
+
+Fizemos uma ferramenta para nos ajudar a testar o backend dos candidatos, se quiser dê uma olhada no [backend-project-tester-doar](https://github.com/app-masters/backend-project-tester-doar).
+
+Iremos ainda realizar os sorteios dos fones da terceira etapa, mas, juntamente com o sorteio da quarta etapa, com os participantes de cada uma delas. Avisaremos quando soubermos a data/hora e rede social para que possam acompanhar.
+
+# 4ª Etapa - Um único projeto
+
+Nesta última etapa teremos apenas um projeto no frontend, e um de backend, para trabalharmos, e serão escolhidos dentre os projetos dos finalistas (se autorizarem o uso).
+
+**Início: 10/08/2022 - envio dos projetos: até meia noite de 15/08/2022 - resultado: 16/08/2022**   
+
+Ao invés de cada um implementar tarefas iguais em seus projetos, todos estarão no mesmo projeto, fazendo atividades diferentes.
+
+Para incentivar ainda mais os participantes desta etapa, sortearemos uma cafeteira Nespresso entre os 8 finalistas. Estamos pensando em trazer para o time entre 2 e 4 pessoas.
+
+Os candidatos aprovados virão para nosso Gather nesta etapa, e poderão conversar conosco mais proximamente para aprenderem mais e tirarem suas duvidas. Enviaremos mais informações pelo slack logo mais.
+
+As atividades estarão descritas em detalhe no repositório final do projeto (linkaremos aqui estes dias), mas por alto teremos:
+
+- Conversão do projeto em TypeScript
+- Registro de instituição, com aprovação pelo administrador
+- Envio de email para aprovação de instituição
+- Envio de email para avisar de nova doação recebida
+- Aplicação de lint e prettier para garantir qualidade do código
+- Validação local dos códigos antes de permitir o commit
+- Build e deploy automatizados do projeto frontend e backend
+
+Se tudo der certo 🙏 na semana que vem teremos o site [doarcomputador.com.br](doarcomputador.com.br) online, pronto 💪 para uso!
+
+. . .
+
+🍀 Boa sorte e sucesso à todos 🍀
