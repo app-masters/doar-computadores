@@ -386,7 +386,7 @@ Para incentivar ainda mais os participantes desta etapa, sortearemos uma cafetei
 
 Os candidatos aprovados virão para nosso Gather nesta etapa, e poderão conversar conosco mais proximamente para aprenderem mais e tirarem suas duvidas. Enviaremos mais informações pelo slack logo mais.
 
-As atividades estarão descritas em detalhe no repositório final do projeto (linkaremos aqui estes dias), mas por alto teremos:
+As atividades estarão descritas em detalhe nos repositórios finais dos projetos, mas por alto teremos:
 
 - Conversão do projeto em TypeScript
 - Registro de instituição, com aprovação pelo administrador
@@ -397,6 +397,8 @@ As atividades estarão descritas em detalhe no repositório final do projeto (li
 - Build e deploy automatizados do projeto frontend e backend
 
 Se tudo der certo 🙏 na semana que vem teremos o site [doarcomputador.com.br](doarcomputador.com.br) online, pronto 💪 para uso!
+
+Os projetos seguem então em [github.com/app-masters/doar-computadores-backend](https://github.com/app-masters/doar-computadores-backend) e [github.com/app-masters/doar-computadores-frontend](https://github.com/app-masters/doar-computadores-frontend)
 
 . . .
 
