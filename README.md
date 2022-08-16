@@ -400,6 +400,17 @@ Se tudo der certo 🙏 na semana que vem teremos o site [doarcomputador.com.br](
 
 Os projetos seguem então em [github.com/app-masters/doar-computadores-backend](https://github.com/app-masters/doar-computadores-backend) e [github.com/app-masters/doar-computadores-frontend](https://github.com/app-masters/doar-computadores-frontend)
 
-. . .
+# 4ª Etapa - Aprovados para estagiar conosco
 
-🍀 Boa sorte e sucesso à todos 🍀
+Começamos com 125 candidatos e já para a segunda etapa fomos para 51, na terceira para 21, e na quarta (e última) apenas 8 seguiram no processo.
+
+Depois de três semanas de muito código, conversa sobre programação e aprendizado, chegamos aos quatro candidatos que virão estagiar conosco.
+
+- Bruno Theodoro
+- Leonardo Frederico Da Silva (Leonardo Freedy)
+- Maria Fernanda Moreira Tavares
+- Thiago De Oliveira Abreu (abreuthrj)
+
+Aos demais, nossos sinceros parabéns! Sigam seus estudos, codando, mas principalmente, praticando. Criem projetos próprios, inventem algo real para exercitar, para aprenderem ainda mais e se desenvolverem acima de tudo.
+
+🍀 Desejamos boa sorte sucesso à todos! 🍀
